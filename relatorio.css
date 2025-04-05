@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
+    overflow: hidden;
 }
 .header{
     text-align: center;
@@ -32,12 +33,14 @@ body {
 .registro-menu button:hover {
     background-color: #430baa;
 }
-
+#btn:hover{
+    background-color: #430baa;
+}
 
 /* Cadastro de Abastecimento Inicio - Botões, Card e Inputs */
 
 #card-abastecimento{
-    width: 500px;
+    width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -75,9 +78,6 @@ input{
     height: 30px;
 }
 
-
-
-
 /* Cadastro de Abastecimento Final - Botões, Card e Inputs */
 
 /* Responsividade da Pagina Inicio */
@@ -113,6 +113,9 @@ input{
     .registro-menu button{
         width: 50%;
     }
-
+    #btn{
+        width: 50%;
+        border-radius: 10px;
+    }
   }
   
