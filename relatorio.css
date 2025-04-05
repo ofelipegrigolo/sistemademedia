@@ -53,6 +53,9 @@ input{
     width: 500px;
     height: 40px;
 }
+input::placeholder{
+    padding-left: 20px;
+}
 #btn{
     background-color:#6a1bff ;
     border: none;
@@ -62,6 +65,7 @@ input{
     justify-content: center;
     align-items: center;
     color: #fff;
+    border-radius: 5px;
 }
 #mediavalor{
     text-align:center ;
