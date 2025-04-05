@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    font-family: 'Poppins';
+}
+span{
+    display: block;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+}
+h3{
+    text-align: center;
+}
+.menu-frota{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.menu-frota button{
+    background-color: #6a1bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+}
+.menu-frota button:hover{
+    transition: 2s;
+    background-color: #450eac;
+}
+a button{
+    background-color: #6a1bff;
+    color: white;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px; 
+    position: absolute;
+    left: 15px;
+    top: 20px;
+}
