@@ -3,6 +3,8 @@ body{
     padding: 0px;
     width: 100vw;
     font-family: 'Poppins';
+    display: grid;
+    justify-items: center;
 }
 span{
     display: block;
@@ -42,4 +44,7 @@ a button{
     position: absolute;
     left: 15px;
     top: 20px;
+}
+#card-veiculo{
+    padding-top: 100px;
 }
