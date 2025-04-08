@@ -16,22 +16,25 @@
     </div>
 
     <section class="menu-frota">
-        <button>Adicionar Veiculo</button>
+        <button onclick="AdicionarVeiculo()"  id="btnAdd">Adicionar Veiculo</button>
         <button>Remover Veiculo</button>
         <button>Editar Veiculo</button>
     </section>
 
     <div id="card-veiculo">
         <input type="text" id="marca" placeholder="Marca">
-        <input type="text" id="km_final" placeholder="Modelo">
-        <input type="text" id="qtd_abastecida" placeholder="Placa">
+        <input type="text" id="modelo" placeholder="Modelo">
+        <input type="text" id="placa" placeholder="Placa">
 
         <!-- Botão para calcular a média -->
-        <button onclick="Media()" id="addveiculo">Adicionar Veiculo</button>
+        <button id="addbtn">Adicionar Veiculo</button>
 
-        <p id="mediavalor">Media Final:<b></b></p>
+
     </div>
 
+    <a href="./home.html">
+        <button id="btn-voltar">Voltar</button>
+    </a>
 
 </body>
 </html>

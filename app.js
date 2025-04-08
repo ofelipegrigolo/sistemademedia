@@ -20,3 +20,13 @@ function Registro(){
 
 const btnRegistro = document.getElementById("btncadastro");
 btnRegistro.addEventListener("click",Registro);
+
+
+function AdicionarVeiculo(){
+  const cardVeiculo = document.getElementById("card-veiculo");
+  cardVeiculo.style.visibility = "visible";
+}
+
+
+const btnAdicionarVeiculo = document.getElementById("btnAdd");
+btnAdicionarVeiculo.addEventListener("click",AdicionarVeiculo);
